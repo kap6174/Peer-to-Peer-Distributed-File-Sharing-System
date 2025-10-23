@@ -1,0 +1,47 @@
+./tracker tracker_info.txt 1
+
+./tracker tracker_info.txt 2
+
+./tracker tracker_info.txt 3
+
+./client 127.0.0.1:6001 tracker_info.txt
+
+./client 127.0.0.1:6002 tracker_info.txt
+
+./client 127.0.0.1:6003 tracker_info.txt
+
+create_user user1 pass1
+
+login user1 pass1
+
+create_group 1
+
+upload_file DemonSlayerManga.pdf 1
+
+create_user user2 pass2
+
+login user2 pass2
+
+list_groups
+
+join_group 1
+
+list_requests 1
+
+accept_request 1 user2
+
+list_files 1
+
+download_file 1 DemonSlayerManga.pdf ./downloaded_by_client2.pdf
+
+create_user user3 pass3
+
+login user3 pass3
+
+join_group 1
+
+accept_request 1 user3
+
+download_file 1 DemonSlayerManga.pdf ./downloaded_by_client3.pdf
+
+show_downloads

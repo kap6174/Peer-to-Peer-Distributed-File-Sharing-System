@@ -1,0 +1,348 @@
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/tracker$ ./tracker tracker_info.txt 1
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: port 6001
+
+Listening Port saved 6001
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: create_user user1 pass1
+
+Received Message: login user1 pass1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: create_group 1
+
+Received Message: upload_file DemonSlayerManga.pdf 1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: list_files 1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: port 6002
+
+Listening Port saved 6002
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: create_user user2 pass2
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: login user2 pass2
+
+Received Message: join_group 1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: list_requests 1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: accept_request 1 user2
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: list_groups
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: list_files 1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+quReceived Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+quit
+Unrecognized Command
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+quit
+Tracker quits
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/tracker$ 
+
+
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/tracker$ ./tracker tracker_info.txt 2
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user1=pass1
+;|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user1=pass1
+;|loggedin:user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user1=pass1
+;|loggedin:user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:1=[user2,];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,user2,];|groupOwner:1=user1;|requests:1=[];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,user2,];|groupOwner:1=user1;|requests:1=[];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,user2,];|groupOwner:1=user1;|requests:1=[];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,user2,];|groupOwner:1=user1;|requests:1=[];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: port 6003
+
+Listening Port saved 6003
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: create_user user3 pass3
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: login user3 pass3
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: join_group 1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: port 6001
+login user1 pass1
+
+Listening Port saved 6001
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: join_group 1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: join_group 1
+
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: port 6002
+
+Listening Port saved 6002
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+^C
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/tracker$ 
+
+
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/tracker$ ./tracker tracker_info.txt 3
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user1=pass1
+;|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user1=pass1
+;|loggedin:user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user1=pass1
+;|loggedin:user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,];|groupOwner:1=user1;|requests:1=[user2,];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,user2,];|groupOwner:1=user1;|requests:1=[];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,user2,];|groupOwner:1=user1;|requests:1=[];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,user2,];|groupOwner:1=user1;|requests:1=[];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user2=pass2
+;user1=pass1
+;|loggedin:user2=true;user1=true;|groupMembers:1=[user1,user2,];|groupOwner:1=user1;|requests:1=[];|filesingroup:1=[DemonSlayerManga.pdf,];|fileswithclient:DemonSlayerManga.pdf=[5,];|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: sync:map_user:user3=pass3
+;|loggedin:user3=true;|groupMembers:|groupOwner:|requests:|filesingroup:|fileswithclient:|
+Received Message: port 6001
+login user1 pass1
+
+Listening Port saved 6001
+
+
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/client$ ./client 127.0.0.1:6001 tracker_info.txt
+Connected to tracker at 127.0.0.1:8080
+Started to accept: 
+Listening Port value sent: 
+create_user user1 pass1
+Tracker said: New user created
+login user1 pass1
+Tracker said: Welcome back
+create_group 1
+Tracker said: Group Created. You are now an Admin
+
+upload_file DemonSlayerManga.pdf 1
+Tracker said: file uploaded
+
+list_files 1
+Tracker said: DemonSlayerManga.pdf
+
+list_requests 1
+Tracker said: user2
+
+accept_request 1 user2
+Tracker said: accepted 1
+
+list_requests 1
+Receive failed, attempting reconnection...
+Connection Failed: Connection refused
+Connected to tracker at 127.0.0.1:8081
+Restoring session state...
+list_requests 1
+list_requests 1               
+list_files 1
+Re-login response: 
+Session state restored.
+Receive failed, attempting reconnection...
+Connection Failed: Connection refused
+Connection Failed: Connection refused
+Connected to tracker at 127.0.0.1:8082
+Restoring session state...
+list_files 1
+
+
+
+
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/client$ ./client 127.0.0.1:6002 tracker_info.txt
+Connected to tracker at 127.0.0.1:8080
+Started to accept: 
+Listening Port value sent: 
+create_user user2 pass2
+Tracker said: New user created
+login user2 pass2
+Tracker said: Welcome back
+join_group 1
+Tracker said: Request sent to Owner
+
+list_groups
+Tracker said: 1
+
+list_files 1
+Tracker said: DemonSlayerManga.pdf
+
+^C
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/client$ ./client 127.0.0.1:6002 tracker_info.txt
+Connection Failed: Connection refused
+Connected to tracker at 127.0.0.1:8081
+Started to accept: 
+Listening Port value sent: 
+
+
+junaid-ahmed@junaid-ahmed-PC:~/Documents/SEM1/AOS3/2024201049_A3(1)/2024201049_A3/client$ ./client 127.0.0.1:6003 tracker_info.txt
+Connection Failed: Connection refused
+Connected to tracker at 127.0.0.1:8081
+Started to accept: 
+Listening Port value sent: 
+create_user user3 pass3
+Tracker said: New user created
+login user3 pass3
+Tracker said: Welcome back
+join_group 1
+Tracker said: Cannot access group
+
+join_group 1
+Tracker said: Cannot access group
+
+join_group 1
+Tracker said: Cannot access group
+
+
+
