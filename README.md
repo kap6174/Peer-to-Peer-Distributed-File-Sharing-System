@@ -2,7 +2,7 @@
 
 PeerShare is a distributed, multi-tracker peer-to-peer (P2P) file sharing system inspired by BitTorrent.
 
-It allows users to create groups, share files, and download them in parallel from multiple peers. The system supports tracker synchronization, multi-threaded concurrent downloads, and SHA-1–based file integrity verification, all implemented entirely using system calls and sockets in C++ — without using any filesystem or `system()` library functions.
+It allows users to create groups, share files, and download them in parallel from multiple peers. The system supports tracker synchronization, multi-threaded concurrent downloads, and SHA-1–based file integrity verification, all implemented entirely using system calls and sockets in C++.
 
 ---
 
